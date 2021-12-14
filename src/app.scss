@@ -1,0 +1,78 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
+body {
+  background-color: rgba(234, 230, 238, 0.932);
+  padding: 1rem;
+  color: black;
+}
+
+.pagination-buttons {
+  margin: 0.25rem;
+}
+.pag {
+  margin-left: 660px;
+  margin-top: -110px;
+}
+#text-input {
+  width: 13rem;
+}
+
+.pagList-container {
+  float: right;
+}
+
+.Navbar,
+header {
+  color: white;
+  background-color: #c64756;
+}
+
+Button {
+  background-color: rgb(119, 119, 118) !important;
+  margin: 0.1rem;
+}
+
+.mainsec {
+  margin: 5%;
+  .list {
+    color: white;
+  }
+
+  .mainCards {
+    margin: 5% !important;
+
+    .mainItem {
+      margin-bottom: 50px !important;
+      float: left;
+      background-color: #96bb7c;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      .button {
+        margin-top: 10px;
+        margin-left: 80px;
+      }
+      .Difficulty {
+        margin-top: 10px;
+      }
+    }
+
+    .mainItem2 {
+      margin-bottom: 50px !important;
+      margin-left: 400px !important;
+      background-color: #184d47;
+    }
+
+    .listCard {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 20px;
+    }
+
+    .butns {
+      margin-left: 400px !important;
+    }
+  }
+}
